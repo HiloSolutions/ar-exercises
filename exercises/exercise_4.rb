@@ -31,7 +31,7 @@ Store.create(
 
  @mens_stores = Store.where("mens_apparel = true")
 
- for store in @mens_stores
+for store in @mens_stores
   puts store.name
   puts store.annual_revenue
 end
